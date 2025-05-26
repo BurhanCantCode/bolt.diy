@@ -14,19 +14,19 @@ export default class AnthropicProvider extends BaseProvider {
 
   staticModels: ModelInfo[] = [
     {
-      name: 'claude-opus-4-20250514',
+      name: 'claude-opus-4-0',
       label: 'Claude Opus 4',
       provider: 'Anthropic',
       maxTokenAllowed: 128000
     },
     {
-      name: 'claude-sonnet-4-20250514',
+      name: 'claude-sonnet-4-0',
       label: 'Claude Sonnet 4',
       provider: 'Anthropic',
       maxTokenAllowed: 128000
     },
     {
-      name: 'claude-3-7-sonnet-20250219',
+      name: 'claude-3-7-sonnet-latest',
       label: 'Claude Sonnet 3.7',
       provider: 'Anthropic',
       maxTokenAllowed: 8000,
