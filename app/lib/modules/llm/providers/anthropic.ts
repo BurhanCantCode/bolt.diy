@@ -27,31 +27,31 @@ export default class AnthropicProvider extends BaseProvider {
     },
     {
       name: 'claude-3-7-sonnet-20250219',
-      label: 'Claude 3.7 Sonnet',
+      label: 'Claude Sonnet 3.7',
       provider: 'Anthropic',
       maxTokenAllowed: 8000,
     },
     {
       name: 'claude-3-5-sonnet-latest',
-      label: 'Claude 3.5 Sonnet (new)',
+      label: 'Claude Sonnet 3.5',
       provider: 'Anthropic',
       maxTokenAllowed: 8000,
     },
     {
       name: 'claude-3-5-sonnet-20240620',
-      label: 'Claude 3.5 Sonnet (old)',
+      label: 'Claude Sonnet 3.5 (old)',
       provider: 'Anthropic',
       maxTokenAllowed: 8000,
     },
     {
       name: 'claude-3-5-haiku-latest',
-      label: 'Claude 3.5 Haiku (new)',
+      label: 'Claude Haiku 3.5',
       provider: 'Anthropic',
       maxTokenAllowed: 8000,
     },
-    { name: 'claude-3-opus-latest', label: 'Claude 3 Opus', provider: 'Anthropic', maxTokenAllowed: 8000 },
-    { name: 'claude-3-sonnet-20240229', label: 'Claude 3 Sonnet', provider: 'Anthropic', maxTokenAllowed: 8000 },
-    { name: 'claude-3-haiku-20240307', label: 'Claude 3 Haiku', provider: 'Anthropic', maxTokenAllowed: 8000 },
+    { name: 'claude-3-opus-latest', label: 'Claude Opus 3', provider: 'Anthropic', maxTokenAllowed: 8000 },
+    { name: 'claude-3-sonnet-20240229', label: 'Claude Sonnet 3', provider: 'Anthropic', maxTokenAllowed: 8000 },
+    { name: 'claude-3-haiku-20240307', label: 'Claude Haiku 3', provider: 'Anthropic', maxTokenAllowed: 8000 },
   ];
   getModelInstance: (options: {
     model: string;
